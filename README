@@ -1,0 +1,5 @@
+DB Changes required for using networking-cisco (master) plugin with kilo neutron
+
+Reason for using Procedure to derive whether a column exists and not just IF NOT
+EXISTS as part of the ALTER TABLE statement is to support the 5.5 versions of
+MariaDB
